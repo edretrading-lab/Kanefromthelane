@@ -1,0 +1,66 @@
+{
+ "updated": "2026-11-19",
+ "career_goals": 545,
+ "career_apps": 789,
+ "bayern_goals": 156,
+ "bayern_apps": 162,
+ "england_goals": 93,
+ "england_caps": 127,
+ "mv_now": "€32m",
+ "current": {
+  "label": "2026/27 Bundesliga",
+  "minutes": 715,
+  "apps": 9,
+  "goals": 4,
+  "assists": 8,
+  "xg": 7.03,
+  "xa": 2.84,
+  "shots": 43,
+  "sot": 11,
+  "rating": 8.09
+ },
+ "fixtures": [
+  [
+   "2026-11-20",
+   "Bayern",
+   "1. FC Köln",
+   "H",
+   "Bundesliga"
+  ],
+  [
+   "2026-11-25",
+   "Bayern",
+   "Lille",
+   "A",
+   "Champions League"
+  ],
+  [
+   "2026-11-28",
+   "Bayern",
+   "Hamburger SV",
+   "A",
+   "Bundesliga"
+  ],
+  [
+   "2026-12-01",
+   "Bayern",
+   "Hertha BSC",
+   "H",
+   "DFB-Pokal"
+  ],
+  [
+   "2026-12-04",
+   "Bayern",
+   "SC Paderborn",
+   "H",
+   "Bundesliga"
+  ],
+  [
+   "2026-12-05",
+   "England",
+   "Ukraine",
+   "",
+   "Friendly"
+  ]
+ ]
+}
