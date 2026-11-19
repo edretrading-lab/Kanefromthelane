@@ -178,6 +178,7 @@ footer a{color:inherit}
 .fxi.next{border-color:#d9b25f;background:rgba(217,178,95,.1)}
 .top .navcta{color:#0b1430!important;font-weight:500}
 @media (max-width:640px){.nav{flex-wrap:wrap;justify-content:flex-end}.nav a{padding:8px 10px;font-size:11px}}
+.fxwatch{flex:none;font:500 12px/1 var(--mono);letter-spacing:.06em;color:#d9b25f;text-decoration:none;white-space:nowrap}.fxwatch:hover{text-decoration:underline}
 </style>
 
 <nav class="top" aria-label="Pages">
@@ -185,7 +186,7 @@ footer a{color:inherit}
     <a class="brand" href="index.html" style="color:inherit;text-decoration:none">Kane From The <i>Lane</i></a>
     <div class="nav"><a href="index.html" id="nav-home">The Story</a><a href="stats.html" id="nav-stats">The Stats</a><a href="kane-vs-haaland.html" id="nav-vs">Kane v Haaland</a><a class="navcta" href="#alerts">Goal alerts</a></div>
   </div>
-  <div class="fx" aria-label="Upcoming fixtures"><div class="wrap fxrow"><span class="fxlab">Next up</span><div class="fxlist" id="fx"></div></div></div>
+  <div class="fx" aria-label="Upcoming fixtures"><div class="wrap fxrow"><span class="fxlab">Next up</span><div class="fxlist" id="fx"></div><a class="fxwatch" href="how-to-watch.html">How to watch →</a></div></div>
   <div class="tick" aria-label="Live stats ticker"><div class="run" id="tick"></div></div>
 </nav>
 
@@ -388,7 +389,7 @@ footer a{color:inherit}
 <footer>
   <div class="wrap">
     Kane From The Lane is an unofficial fan site. Not affiliated with Harry Kane, FC Bayern Munich, Tottenham Hotspur or the FA.<br>
-    <a href="about.html">About</a> · <a href="contact.html">Contact</a> · <a href="privacy.html">Privacy policy</a><br>
+    <a href="how-to-watch.html">How to watch</a> · <a href="about.html">About</a> · <a href="contact.html">Contact</a> · <a href="privacy.html">Privacy policy</a><br>
     Sources: <a href="https://en.wikipedia.org/wiki/Harry_Kane" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.fotmob.com/players/194165/harry-kane" target="_blank" rel="noopener">FotMob</a>, <a href="https://www.bundesliga.com/en/bundesliga/news/harry-kane-2025-26-numbers-england-bauern-munich-goals-records-messi-38301" target="_blank" rel="noopener">Bundesliga.com</a>, <a href="https://www.statbunker.com/players/getPlayerStats?player_id=32301" target="_blank" rel="noopener">Statbunker</a>.
   </div>
 </footer>
@@ -397,7 +398,7 @@ footer a{color:inherit}
 /* ---------- Data. Live values from the shared store override these. ---------- */
 let S={
   updated:"2026-11-19",
-  fixtures:[["2026-11-20", "Bayern", "1. FC Köln", "H", "Bundesliga"], ["2026-11-25", "Bayern", "Lille", "A", "Champions League"], ["2026-11-28", "Bayern", "Hamburger SV", "A", "Bundesliga"], ["2026-12-01", "Bayern", "Hertha BSC", "H", "DFB-Pokal"], ["2026-12-04", "Bayern", "SC Paderborn", "H", "Bundesliga"], ["2026-12-05", "England", "Ukraine", "", "Friendly"]],
+  fixtures:[["2026-11-20", "Bayern", "1. FC Köln", "H", "Bundesliga"], ["2026-11-25", "Bayern", "Lille", "A", "Champions League"], ["2026-11-28", "Bayern", "Hamburger SV", "A", "Bundesliga"], ["2026-12-01", "Bayern", "Hertha BSC", "H", "DFB-Pokal"], ["2026-12-04", "Bayern", "SC Paderborn", "H", "Bundesliga"]],
   career_goals:545, career_apps:789,
   bayern_goals:156, bayern_apps:162,
   england_goals:93, england_caps:127,
