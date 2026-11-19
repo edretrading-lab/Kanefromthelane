@@ -45,7 +45,6 @@ export const handler = async (event) => {
     const id = await groupId();
     const fields = {};
     if (d.name) fields.name = String(d.name).slice(0, 100);
-    if (d.country) fields.country = String(d.country).slice(0, 100);
     await ml("/subscribers", {
       method: "POST",
       body: JSON.stringify({ email, fields, groups: [id] }),
